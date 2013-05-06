@@ -1,0 +1,53 @@
+<!-- ##### SECTION Title ##### -->
+matlab
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION vips__mat_header ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__mat_ismat ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__mat_load ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+

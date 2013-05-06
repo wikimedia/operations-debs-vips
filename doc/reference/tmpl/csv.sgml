@@ -1,0 +1,63 @@
+<!-- ##### SECTION Title ##### -->
+csv
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION vips__csv_read ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@skip: 
+@lines: 
+@whitespace: 
+@separator: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__csv_read_header ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@skip: 
+@lines: 
+@whitespace: 
+@separator: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__csv_write ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@separator: 
+@Returns: 
+
+

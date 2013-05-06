@@ -1,0 +1,102 @@
+<!-- ##### SECTION Title ##### -->
+draw
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO DRAW ##### -->
+<para>
+
+</para>
+
+@X: 
+
+
+<!-- ##### STRUCT Draw ##### -->
+<para>
+
+</para>
+
+@im: 
+@ink: 
+@lsize: 
+@psize: 
+@noclip: 
+
+<!-- ##### FUNCTION im__draw_free ##### -->
+<para>
+
+</para>
+
+@draw: 
+
+
+<!-- ##### FUNCTION im__draw_init ##### -->
+<para>
+
+</para>
+
+@draw: 
+@im: 
+@ink: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im__draw_painted ##### -->
+<para>
+
+</para>
+
+@draw: 
+@p: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im__draw_pel ##### -->
+<para>
+
+</para>
+
+@draw: 
+@q: 
+
+
+<!-- ##### FUNCTION im__draw_pel_clip ##### -->
+<para>
+
+</para>
+
+@draw: 
+@x: 
+@y: 
+
+
+<!-- ##### FUNCTION im__draw_scanline ##### -->
+<para>
+
+</para>
+
+@draw: 
+@y: 
+@x1: 
+@x2: 
+
+

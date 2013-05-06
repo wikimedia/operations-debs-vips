@@ -1,0 +1,73 @@
+<!-- ##### SECTION Title ##### -->
+ppm
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION vips__ppm_flags ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__ppm_header ##### -->
+<para>
+
+</para>
+
+@name: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__ppm_isppm ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__ppm_load ##### -->
+<para>
+
+</para>
+
+@name: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__ppm_save ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@ascii: 
+@Returns: 
+
+

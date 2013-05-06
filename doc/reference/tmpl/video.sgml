@@ -1,0 +1,51 @@
+<!-- ##### SECTION Title ##### -->
+video
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION im_video_test ##### -->
+<para>
+
+</para>
+
+@im: 
+@brightness: 
+@error: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_video_v4l1 ##### -->
+<para>
+
+</para>
+
+@im: 
+@device: 
+@channel: 
+@brightness: 
+@colour: 
+@contrast: 
+@hue: 
+@ngrabs: 
+@Returns: 
+
+

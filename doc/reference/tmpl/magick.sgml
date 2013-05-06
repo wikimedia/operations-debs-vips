@@ -1,0 +1,44 @@
+<!-- ##### SECTION Title ##### -->
+magick
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION vips__magick_read ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__magick_read_header ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+

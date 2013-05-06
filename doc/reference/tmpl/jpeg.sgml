@@ -1,0 +1,110 @@
+<!-- ##### SECTION Title ##### -->
+jpeg
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT ErrorManager ##### -->
+<para>
+
+</para>
+
+@pub: 
+@jmp: 
+@fp: 
+
+<!-- ##### FUNCTION vips__isjpeg ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__jpeg_read_buffer ##### -->
+<para>
+
+</para>
+
+@buf: 
+@len: 
+@out: 
+@header_only: 
+@shrink: 
+@fail: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__jpeg_read_file ##### -->
+<para>
+
+</para>
+
+@name: 
+@out: 
+@header_only: 
+@shrink: 
+@fail: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__jpeg_write_buffer ##### -->
+<para>
+
+</para>
+
+@in: 
+@obuf: 
+@olen: 
+@Q: 
+@profile: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__jpeg_write_file ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Q: 
+@profile: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__new_error_exit ##### -->
+<para>
+
+</para>
+
+@cinfo: 
+
+
+<!-- ##### FUNCTION vips__new_output_message ##### -->
+<para>
+
+</para>
+
+@cinfo: 
+
+

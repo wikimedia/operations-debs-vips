@@ -1,0 +1,63 @@
+<!-- ##### SECTION Title ##### -->
+radiance
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION vips__rad_header ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__rad_israd ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__rad_load ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__rad_save ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+

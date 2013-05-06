@@ -1,0 +1,63 @@
+<!-- ##### SECTION Title ##### -->
+fits
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION vips__fits_isfits ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__fits_read ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__fits_read_header ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__fits_write ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+

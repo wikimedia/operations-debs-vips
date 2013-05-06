@@ -1,0 +1,389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>VipsColourSpace</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.76.1">
+<link rel="home" href="index.html" title="VIPS Reference Manual">
+<link rel="up" href="ch02.html" title="VIPS operation API by section">
+<link rel="prev" href="VipsArithmetic.html" title="VipsArithmetic">
+<link rel="next" href="VipsConversion.html" title="VipsConversion">
+<meta name="generator" content="GTK-Doc V1.18 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="VipsArithmetic.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch02.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">VIPS Reference Manual</th>
+<td><a accesskey="n" href="VipsConversion.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#VipsColourSpace.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#VipsColourSpace.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#VipsColourSpace.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#VipsColourSpace.properties" class="shortcut">Properties</a>
+</td></tr>
+</table>
+<div class="refentry">
+<a name="VipsColourSpace"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="VipsColourSpace.top_of_page"></a>VipsColourSpace</span></h2>
+<p>VipsColourSpace — colour operators</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="VipsColourSpace.stability-level"></a><h2>Stability Level</h2>
+Stable, unless otherwise indicated
+</div>
+<div class="refsynopsisdiv">
+<a name="VipsColourSpace.synopsis"></a><h2>Synopsis</h2>
+<a name="VipsColour"></a><a name="VipsColourCode"></a><a name="VipsColourDifference"></a><pre class="synopsis">
+#include &lt;vips/vips.h&gt;
+
+                    <a class="link" href="VipsColourSpace.html#VipsColour-struct" title="VipsColour">VipsColour</a>;
+                    <a class="link" href="VipsColourSpace.html#VipsColourClass" title="VipsColourClass">VipsColourClass</a>;
+                    <a class="link" href="VipsColourSpace.html#VipsColourCode-struct" title="VipsColourCode">VipsColourCode</a>;
+                    <a class="link" href="VipsColourSpace.html#VipsColourCodeClass" title="VipsColourCodeClass">VipsColourCodeClass</a>;
+                    <a class="link" href="VipsColourSpace.html#VipsColourDifference-struct" title="VipsColourDifference">VipsColourDifference</a>;
+                    <a class="link" href="VipsColourSpace.html#VipsColourDifferenceClass" title="VipsColourDifferenceClass">VipsColourDifferenceClass</a>;
+<span class="returnvalue">void</span>                (<a class="link" href="VipsColourSpace.html#VipsColourProcessFn" title="VipsColourProcessFn ()">*VipsColourProcessFn</a>)              (<em class="parameter"><code><span class="type">struct _VipsColour</span> *colour</code></em>,
+                                                         <em class="parameter"><code><span class="type">VipsPel</span> *out</code></em>,
+                                                         <em class="parameter"><code><span class="type">VipsPel</span> **in</code></em>,
+                                                         <em class="parameter"><code><span class="type">int</span> width</code></em>);
+                    <a class="link" href="VipsColourSpace.html#VipsColourSpace-struct" title="VipsColourSpace">VipsColourSpace</a>;
+                    <a class="link" href="VipsColourSpace.html#VipsColourSpaceClass" title="VipsColourSpaceClass">VipsColourSpaceClass</a>;
+<span class="returnvalue">void</span>                <a class="link" href="VipsColourSpace.html#vips--pythagoras-line" title="vips__pythagoras_line ()">vips__pythagoras_line</a>               (<em class="parameter"><code><a class="link" href="VipsColourSpace.html#VipsColour"><span class="type">VipsColour</span></a> *colour</code></em>,
+                                                         <em class="parameter"><code><span class="type">VipsPel</span> *out</code></em>,
+                                                         <em class="parameter"><code><span class="type">VipsPel</span> **in</code></em>,
+                                                         <em class="parameter"><code><span class="type">int</span> width</code></em>);
+</pre>
+</div>
+<div class="refsect1">
+<a name="VipsColourSpace.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  GObject
+   +----<a class="link" href="VipsObject.html" title="VipsObject">VipsObject</a>
+         +----<a class="link" href="VipsOperation.html" title="VipsOperation">VipsOperation</a>
+               +----VipsColour
+                     +----<a class="link" href="VipsColourSpace.html#VipsColourCode">VipsColourCode</a>
+                     +----<a class="link" href="VipsColourSpace.html#VipsColourDifference">VipsColourDifference</a>
+                     +----<a class="link" href="VipsColourSpace.html" title="VipsColourSpace">VipsColourSpace</a>
+</pre>
+<pre class="synopsis">
+  GObject
+   +----<a class="link" href="VipsObject.html" title="VipsObject">VipsObject</a>
+         +----<a class="link" href="VipsOperation.html" title="VipsOperation">VipsOperation</a>
+               +----<a class="link" href="VipsColourSpace.html#VipsColour">VipsColour</a>
+                     +----VipsColourCode
+</pre>
+<pre class="synopsis">
+  GObject
+   +----<a class="link" href="VipsObject.html" title="VipsObject">VipsObject</a>
+         +----<a class="link" href="VipsOperation.html" title="VipsOperation">VipsOperation</a>
+               +----<a class="link" href="VipsColourSpace.html#VipsColour">VipsColour</a>
+                     +----VipsColourDifference
+</pre>
+<pre class="synopsis">
+  GObject
+   +----<a class="link" href="VipsObject.html" title="VipsObject">VipsObject</a>
+         +----<a class="link" href="VipsOperation.html" title="VipsOperation">VipsOperation</a>
+               +----<a class="link" href="VipsColourSpace.html#VipsColour">VipsColour</a>
+                     +----VipsColourSpace
+</pre>
+</div>
+<div class="refsect1">
+<a name="VipsColourSpace.properties"></a><h2>Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="VipsColourSpace.html#VipsColour--out" title='The "out" property'>out</a>"                      <a class="link" href="VipsImage.html" title="VipsImage"><span class="type">VipsImage</span></a>*            : Read / Write
+  "<a class="link" href="VipsColourSpace.html#VipsColourCode--in" title='The "in" property'>in</a>"                       <a class="link" href="VipsImage.html" title="VipsImage"><span class="type">VipsImage</span></a>*            : Read / Write
+  "<a class="link" href="VipsColourSpace.html#VipsColourDifference--left" title='The "left" property'>left</a>"                     <a class="link" href="VipsImage.html" title="VipsImage"><span class="type">VipsImage</span></a>*            : Read / Write
+  "<a class="link" href="VipsColourSpace.html#VipsColourDifference--right" title='The "right" property'>right</a>"                    <a class="link" href="VipsImage.html" title="VipsImage"><span class="type">VipsImage</span></a>*            : Read / Write
+  "<a class="link" href="VipsColourSpace.html#VipsColourSpace--in" title='The "in" property'>in</a>"                       <a class="link" href="VipsImage.html" title="VipsImage"><span class="type">VipsImage</span></a>*            : Read / Write
+</pre>
+</div>
+<div class="refsect1">
+<a name="VipsColourSpace.description"></a><h2>Description</h2>
+<p>
+These operators let you transform coordinates and images between colour 
+spaces, calculate colour differences, and move 
+to and from device spaces.
+</p>
+<p>
+Radiance images have four 8-bits bands and store 8 bits of R, G and B and
+another 8 bits of exponent, common to all channels. They are widely used in
+the HDR imaging community.
+</p>
+<p>
+The colour functions can be divided into three main groups. First, 
+functions to transform images between the different colour spaces supported 
+by VIPS: <span class="emphasis"><em>RGB</em></span>, <span class="emphasis"><em>sRGB</em></span>,  
+<span class="emphasis"><em>XYZ</em></span>, <span class="emphasis"><em>Yxy</em></span>, 
+<span class="emphasis"><em>Lab</em></span>, <span class="emphasis"><em>LabQ</em></span>, 
+<span class="emphasis"><em>LabS</em></span>, <span class="emphasis"><em>LCh</em></span> and
+<span class="emphasis"><em>CMC</em></span>). Use <code class="function">vips_colourspace()</code> to move an image to a
+target colourspace using the best sequence of colour transform operations. 
+Secondly, there are a set of operations for 
+calculating colour difference metrics. Finally, VIPS wraps LittleCMS and
+uses it to provide a set of operations for reading and writing images with
+ICC profiles.
+</p>
+<p>
+This figure shows how the VIPS colour spaces interconvert:
+</p>
+<p>
+<img src="interconvert.png">
+</p>
+<p>
+The colour spaces supported by VIPS are:
+</p>
+<p>
+</p>
+<div class="itemizedlist"><ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+      <span class="emphasis"><em><code class="code">LabQ</code></em></span>
+</p>
+<p>
+ This is the principal VIPS colorimetric storage format. 
+	 LabQ images have four 8-bit bands and store 10 bits of L and 11 bits 
+	 of a and b.
+</p>
+<p>
+	 You cannot perform calculations on <code class="code">LabQ</code> images (they are
+	 tagged with <a class="link" href="VipsImage.html#VIPS-CODING-LABQ:CAPS"><code class="literal">VIPS_CODING_LABQ</code></a>), though a few operations such as
+	 <code class="function">vips_extract_area()</code> will work directly with them.
+    </p>
+</li>
+<li class="listitem">
+<p>
+      <span class="emphasis"><em><code class="code">LabS</code></em></span>
+</p>
+<p>
+ This format represents coordinates in CIELAB space as a 
+ three-band <a class="link" href="VipsImage.html#VIPS-FORMAT-SHORT:CAPS"><span class="type">VIPS_FORMAT_SHORT</span></a> image, scaled to fit the full range of 
+ bits. It is the best format for computation, being relatively 
+ compact, quick, and accurate. Colour values expressed in this way 
+ are hard to visualise.
+    </p>
+</li>
+<li class="listitem">
+<p>
+      <span class="emphasis"><em><code class="code">Lab</code></em></span>
+</p>
+<p>
+	 Lab colourspace represents CIELAB colour values with a three-band
+ <a class="link" href="VipsImage.html#VIPS-FORMAT-FLOAT:CAPS"><span class="type">VIPS_FORMAT_FLOAT</span></a> image. This is the simplest format for general 
+ work: adding the constant 50 to the L channel, for example, has the 
+ expected result.
+</p>
+<p>
+ VIPS uses D65 LAB, but you can use other colour temperatures with a
+ little effort, see <code class="function">vips_XYZ2Lab()</code>.
+    </p>
+</li>
+<li class="listitem">
+<p>
+      <span class="emphasis"><em><code class="code">XYZ</code></em></span>
+</p>
+<p>
+	 CIE XYZ colour space represented as a three-band <a class="link" href="VipsImage.html#VIPS-FORMAT-FLOAT:CAPS"><span class="type">VIPS_FORMAT_FLOAT</span></a>
+ image.
+    </p>
+</li>
+<li class="listitem">
+<p>
+      <span class="emphasis"><em><code class="code">Yxy</code></em></span>
+</p>
+<p>
+	 CIE Yxy colour space represented as a three-band <a class="link" href="VipsImage.html#VIPS-FORMAT-FLOAT:CAPS"><span class="type">VIPS_FORMAT_FLOAT</span></a>
+ image.
+    </p>
+</li>
+<li class="listitem">
+<p>
+      <span class="emphasis"><em><code class="code">RGB</code> / <code class="code">sRGB</code></em></span>
+</p>
+<p>
+	 VIPS converts XYZ to and from sRGB using the usual formula:
+</p>
+<p>
+	   http://en.wikipedia.org/wiki/SRGB
+</p>
+<p>
+	 You can also use <code class="function">vips_icc_transform()</code> and friends to go to and from
+	 device space with a generic profile. 
+    </p>
+</li>
+<li class="listitem">
+<p>
+      <span class="emphasis"><em><code class="code">LCh</code></em></span>
+</p>
+<p>
+	 Like <code class="code">Lab</code>, but rectangular <code class="code">ab</code> coordinates 
+	 are replaced with 
+	 polar <code class="code">Ch</code> (Chroma and hue) coordinates. 
+	 Hue angles are expressed in degrees.
+    </p>
+</li>
+<li class="listitem">
+<p>
+      <span class="emphasis"><em><code class="code">CMC</code></em></span>
+</p>
+<p>
+      A colour space based on the CMC(1:1) colour difference measurement. 
+      This is a highly uniform colour space, much better than CIELAB for 
+      expressing small differences. 
+</p>
+<p>
+      You can calculate metrics like CMC(2:1) by scaling the spaces before
+      finding differences. 
+    </p>
+</li>
+</ul></div>
+<p>
+</p>
+</div>
+<div class="refsect1">
+<a name="VipsColourSpace.details"></a><h2>Details</h2>
+<div class="refsect2">
+<a name="VipsColour-struct"></a><h3>VipsColour</h3>
+<pre class="programlisting">typedef struct _VipsColour VipsColour;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="VipsColourClass"></a><h3>VipsColourClass</h3>
+<pre class="programlisting">typedef struct {
+	VipsOperationClass parent_class;
+
+	/* The buffer processor.
+	 */
+	VipsColourProcessFn process_line;
+} VipsColourClass;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="VipsColourCode-struct"></a><h3>VipsColourCode</h3>
+<pre class="programlisting">typedef struct _VipsColourCode VipsColourCode;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="VipsColourCodeClass"></a><h3>VipsColourCodeClass</h3>
+<pre class="programlisting">typedef struct {
+	VipsColourClass parent_class;
+} VipsColourCodeClass;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="VipsColourDifference-struct"></a><h3>VipsColourDifference</h3>
+<pre class="programlisting">typedef struct _VipsColourDifference VipsColourDifference;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="VipsColourDifferenceClass"></a><h3>VipsColourDifferenceClass</h3>
+<pre class="programlisting">typedef struct {
+	VipsColourClass parent_class;
+} VipsColourDifferenceClass;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="VipsColourProcessFn"></a><h3>VipsColourProcessFn ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                (*VipsColourProcessFn)              (<em class="parameter"><code><span class="type">struct _VipsColour</span> *colour</code></em>,
+                                                         <em class="parameter"><code><span class="type">VipsPel</span> *out</code></em>,
+                                                         <em class="parameter"><code><span class="type">VipsPel</span> **in</code></em>,
+                                                         <em class="parameter"><code><span class="type">int</span> width</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="VipsColourSpace-struct"></a><h3>VipsColourSpace</h3>
+<pre class="programlisting">typedef struct _VipsColourSpace VipsColourSpace;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="VipsColourSpaceClass"></a><h3>VipsColourSpaceClass</h3>
+<pre class="programlisting">typedef struct {
+	VipsColourClass parent_class;
+} VipsColourSpaceClass;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="vips--pythagoras-line"></a><h3>vips__pythagoras_line ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                vips__pythagoras_line               (<em class="parameter"><code><a class="link" href="VipsColourSpace.html#VipsColour"><span class="type">VipsColour</span></a> *colour</code></em>,
+                                                         <em class="parameter"><code><span class="type">VipsPel</span> *out</code></em>,
+                                                         <em class="parameter"><code><span class="type">VipsPel</span> **in</code></em>,
+                                                         <em class="parameter"><code><span class="type">int</span> width</code></em>);</pre>
+<p>
+</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="VipsColourSpace.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="VipsColour--out"></a><h3>The <code class="literal">"out"</code> property</h3>
+<pre class="programlisting">  "out"                      <a class="link" href="VipsImage.html" title="VipsImage"><span class="type">VipsImage</span></a>*            : Read / Write</pre>
+<p>Output image.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="VipsColourCode--in"></a><h3>The <code class="literal">"in"</code> property</h3>
+<pre class="programlisting">  "in"                       <a class="link" href="VipsImage.html" title="VipsImage"><span class="type">VipsImage</span></a>*            : Read / Write</pre>
+<p>Input image.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="VipsColourDifference--left"></a><h3>The <code class="literal">"left"</code> property</h3>
+<pre class="programlisting">  "left"                     <a class="link" href="VipsImage.html" title="VipsImage"><span class="type">VipsImage</span></a>*            : Read / Write</pre>
+<p>Left-hand input image.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="VipsColourDifference--right"></a><h3>The <code class="literal">"right"</code> property</h3>
+<pre class="programlisting">  "right"                    <a class="link" href="VipsImage.html" title="VipsImage"><span class="type">VipsImage</span></a>*            : Read / Write</pre>
+<p>Right-hand input image.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="VipsColourSpace--in"></a><h3>The <code class="literal">"in"</code> property</h3>
+<pre class="programlisting">  "in"                       <a class="link" href="VipsImage.html" title="VipsImage"><span class="type">VipsImage</span></a>*            : Read / Write</pre>
+<p>Input image.</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="VipsColourSpace.see-also"></a><h2>See Also</h2>
+arithmetic
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.18</div>
+</body>
+</html>

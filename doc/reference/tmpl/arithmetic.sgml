@@ -1,0 +1,94 @@
+<!-- ##### SECTION Title ##### -->
+VipsArithmetic
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT VipsArithmetic ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG VipsArithmetic:out ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT VipsArithmeticClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+@format_table: 
+@vectors: 
+@vector_program: 
+@process_line: 
+
+<!-- ##### USER_FUNCTION VipsArithmeticProcessFn ##### -->
+<para>
+
+</para>
+
+@arithmetic: 
+@out: 
+@in: 
+@width: 
+
+
+<!-- ##### FUNCTION vips_arithmetic_compile ##### -->
+<para>
+
+</para>
+
+@klass: 
+
+
+<!-- ##### FUNCTION vips_arithmetic_get_program ##### -->
+<para>
+
+</para>
+
+@klass: 
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips_arithmetic_get_vector ##### -->
+<para>
+
+</para>
+
+@klass: 
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips_arithmetic_set_format_table ##### -->
+<para>
+
+</para>
+
+@klass: 
+@format_table: 
+
+

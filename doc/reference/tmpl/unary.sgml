@@ -1,0 +1,50 @@
+<!-- ##### SECTION Title ##### -->
+unary
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT VipsUnary ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG VipsUnary:in ##### -->
+<para>
+
+</para>
+
+<!-- ##### TYPEDEF VipsUnaryClass ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION vips_unary_copy ##### -->
+<para>
+
+</para>
+
+@unary: 
+@Returns: 
+
+

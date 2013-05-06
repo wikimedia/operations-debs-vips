@@ -1,0 +1,87 @@
+<!-- ##### SECTION Title ##### -->
+vipspng
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION vips__png_header ##### -->
+<para>
+
+</para>
+
+@name: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__png_isinterlaced ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__png_ispng ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__png_read ##### -->
+<para>
+
+</para>
+
+@name: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__png_write ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@compress: 
+@interlace: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__png_write_buf ##### -->
+<para>
+
+</para>
+
+@in: 
+@obuf: 
+@olen: 
+@compression: 
+@interlace: 
+@Returns: 
+
+

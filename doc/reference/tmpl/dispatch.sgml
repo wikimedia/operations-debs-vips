@@ -1,0 +1,792 @@
+<!-- ##### SECTION Title ##### -->
+dispatch
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO IM_INPUT_DISPLAY ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_INPUT_DMASK ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_INPUT_DOUBLE ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_INPUT_DOUBLEVEC ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_INPUT_GVALUE ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_INPUT_IMAGE ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_INPUT_IMAGEVEC ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_INPUT_IMASK ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_INPUT_INT ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_INPUT_INTERPOLATE ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_INPUT_INTVEC ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_INPUT_STRING ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_MAX_ARGS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_OUTPUT_COMPLEX ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_OUTPUT_DISPLAY ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_OUTPUT_DMASK ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_OUTPUT_DMASK_STATS ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_OUTPUT_DOUBLE ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_OUTPUT_DOUBLEVEC ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_OUTPUT_GVALUE ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_OUTPUT_IMAGE ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_OUTPUT_IMASK ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_OUTPUT_INT ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_OUTPUT_INTVEC ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_OUTPUT_STRING ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_RW_IMAGE ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_TYPE_COMPLEX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_DISPLAY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_DMASK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_DOUBLE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_DOUBLEVEC ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_GVALUE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_IMAGE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_IMAGEVEC ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_IMASK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_INT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_INTERPOLATE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_INTVEC ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_STRING ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im__cprint ##### -->
+<para>
+
+</para>
+
+@obj: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im__displayprint ##### -->
+<para>
+
+</para>
+
+@obj: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im__dmsprint ##### -->
+<para>
+
+</para>
+
+@obj: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im__dprint ##### -->
+<para>
+
+</para>
+
+@obj: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im__dvprint ##### -->
+<para>
+
+</para>
+
+@obj: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im__gprint ##### -->
+<para>
+
+</para>
+
+@obj: 
+@Returns: 
+
+
+<!-- ##### VARIABLE im__input_display ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__input_dmask ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__input_double ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__input_doublevec ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__input_gvalue ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__input_image ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__input_imagevec ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__input_imask ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__input_int ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__input_interpolate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__input_intvec ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__input_string ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION im__iprint ##### -->
+<para>
+
+</para>
+
+@obj: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im__ivprint ##### -->
+<para>
+
+</para>
+
+@obj: 
+@Returns: 
+
+
+<!-- ##### VARIABLE im__output_complex ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__output_display ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__output_dmask ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__output_dmask_screen ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__output_double ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__output_doublevec ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__output_gvalue ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__output_image ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__output_imask ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__output_int ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__output_intvec ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__output_string ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### VARIABLE im__rw_image ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION im__sprint ##### -->
+<para>
+
+</para>
+
+@obj: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_allocate_vargv ##### -->
+<para>
+
+</para>
+
+@fn: 
+@vargv: 
+@Returns: 
+
+
+<!-- ##### STRUCT im_arg_desc ##### -->
+<para>
+
+</para>
+
+@name: 
+@desc: 
+@print: 
+
+<!-- ##### TYPEDEF im_arg_type ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION im_close_plugins ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION im_dest_obj_fn ##### -->
+<para>
+
+</para>
+
+@obj: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION im_dispatch_fn ##### -->
+<para>
+
+</para>
+
+@argv: 
+@Returns: 
+
+
+<!-- ##### STRUCT im_doublevec_object ##### -->
+<para>
+
+</para>
+
+@n: 
+@vec: 
+
+<!-- ##### FUNCTION im_find_function ##### -->
+<para>
+
+</para>
+
+@name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_find_package ##### -->
+<para>
+
+</para>
+
+@name: 
+@Returns: 
+
+
+<!-- ##### ENUM im_fn_flags ##### -->
+<para>
+
+</para>
+
+@IM_FN_NONE: 
+@IM_FN_PIO: 
+@IM_FN_TRANSFORM: 
+@IM_FN_PTOP: 
+@IM_FN_NOCACHE: 
+
+<!-- ##### FUNCTION im_free_vargv ##### -->
+<para>
+
+</para>
+
+@fn: 
+@vargv: 
+@Returns: 
+
+
+<!-- ##### STRUCT im_function ##### -->
+<para>
+
+</para>
+
+@name: 
+@desc: 
+@flags: 
+@disp: 
+@argc: 
+@argv: 
+
+<!-- ##### STRUCT im_imagevec_object ##### -->
+<para>
+
+</para>
+
+@n: 
+@vec: 
+
+<!-- ##### USER_FUNCTION im_init_obj_fn ##### -->
+<para>
+
+</para>
+
+@obj: 
+@str: 
+@Returns: 
+
+
+<!-- ##### STRUCT im_intvec_object ##### -->
+<para>
+
+</para>
+
+@n: 
+@vec: 
+
+<!-- ##### FUNCTION im_load_plugin ##### -->
+<para>
+
+</para>
+
+@name: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_load_plugins ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@...: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_map_packages ##### -->
+<para>
+
+</para>
+
+@fn: 
+@a: 
+@Returns: 
+
+
+<!-- ##### STRUCT im_mask_object ##### -->
+<para>
+
+</para>
+
+@name: 
+@mask: 
+
+<!-- ##### TYPEDEF im_object ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT im_package ##### -->
+<para>
+
+</para>
+
+@name: 
+@nfuncs: 
+@table: 
+
+<!-- ##### FUNCTION im_package_of_function ##### -->
+<para>
+
+</para>
+
+@name: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION im_print_obj_fn ##### -->
+<para>
+
+</para>
+
+@obj: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_run_command ##### -->
+<para>
+
+</para>
+
+@name: 
+@argc: 
+@argv: 
+@Returns: 
+
+
+<!-- ##### STRUCT im_type_desc ##### -->
+<para>
+
+</para>
+
+@type: 
+@size: 
+@flags: 
+@init: 
+@dest: 
+
+<!-- ##### ENUM im_type_flags ##### -->
+<para>
+
+</para>
+
+@IM_TYPE_NONE: 
+@IM_TYPE_OUTPUT: 
+@IM_TYPE_ARG: 
+@IM_TYPE_RW: 
+

@@ -1,0 +1,124 @@
+<!-- ##### SECTION Title ##### -->
+VipsColourSpace
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT VipsColour ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG VipsColour:out ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT VipsColourClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+@process_line: 
+
+<!-- ##### STRUCT VipsColourCode ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG VipsColourCode:in ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT VipsColourCodeClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+
+<!-- ##### STRUCT VipsColourDifference ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG VipsColourDifference:left ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG VipsColourDifference:right ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT VipsColourDifferenceClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+
+<!-- ##### USER_FUNCTION VipsColourProcessFn ##### -->
+<para>
+
+</para>
+
+@colour: 
+@out: 
+@in: 
+@width: 
+
+
+<!-- ##### STRUCT VipsColourSpace ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG VipsColourSpace:in ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT VipsColourSpaceClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+
+<!-- ##### FUNCTION vips__pythagoras_line ##### -->
+<para>
+
+</para>
+
+@colour: 
+@out: 
+@in: 
+@width: 
+
+

@@ -1,0 +1,67 @@
+<!-- ##### SECTION Title ##### -->
+openslide2vips
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION vips__openslide_isslide ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__openslide_read ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@level: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__openslide_read_associated ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@associated: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__openslide_read_header ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@level: 
+@associated: 
+@Returns: 
+
+

@@ -1,0 +1,42 @@
+<!-- ##### SECTION Title ##### -->
+VipsConversion
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT VipsConversion ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG VipsConversion:out ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT VipsConversionClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+

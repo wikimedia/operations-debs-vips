@@ -1,0 +1,58 @@
+<!-- ##### SECTION Title ##### -->
+VipsBandary
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT VipsBandary ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT VipsBandaryClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+@process_line: 
+
+<!-- ##### USER_FUNCTION VipsBandaryProcessFn ##### -->
+<para>
+
+</para>
+
+@bandary: 
+@out: 
+@in: 
+@width: 
+
+
+<!-- ##### FUNCTION vips_bandary_copy ##### -->
+<para>
+
+</para>
+
+@bandary: 
+@Returns: 
+
+

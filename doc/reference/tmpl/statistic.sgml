@@ -1,0 +1,78 @@
+<!-- ##### SECTION Title ##### -->
+VipsStatistic
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT VipsStatistic ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG VipsStatistic:in ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT VipsStatisticClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+@start: 
+@scan: 
+@stop: 
+
+<!-- ##### USER_FUNCTION VipsStatisticScanFn ##### -->
+<para>
+
+</para>
+
+@statistic: 
+@seq: 
+@x: 
+@y: 
+@p: 
+@n: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION VipsStatisticStartFn ##### -->
+<para>
+
+</para>
+
+@statistic: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION VipsStatisticStopFn ##### -->
+<para>
+
+</para>
+
+@statistic: 
+@seq: 
+@Returns: 
+
+

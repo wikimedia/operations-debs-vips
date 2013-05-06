@@ -1,0 +1,4874 @@
+<!-- ##### SECTION Title ##### -->
+vips7compat
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO IMAGE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_ABS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_ANY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_ARRAY ##### -->
+<para>
+
+</para>
+
+@IM: 
+@N: 
+@T: 
+
+
+<!-- ##### MACRO IM_A_X0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_A_Y0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_A_Z0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_BANDFMT_CHAR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_BANDFMT_COMPLEX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_BANDFMT_DOUBLE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_BANDFMT_DPCOMPLEX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_BANDFMT_FLOAT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_BANDFMT_INT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_BANDFMT_LAST ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_BANDFMT_NOTSET ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_BANDFMT_SHORT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_BANDFMT_UCHAR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_BANDFMT_UINT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_BANDFMT_USHORT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_B_X0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_B_Y0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_B_Z0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_CLIP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_CLIP_CHAR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_CLIP_NONE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_CLIP_SHORT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_CLIP_UCHAR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_CLIP_USHORT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_CODING_LABQ ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_CODING_NONE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_CODING_RAD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_C_X0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_C_Y0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_C_Z0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D3250_X0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D3250_Y0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D3250_Z0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D50_X0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D50_Y0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D50_Z0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D55_X0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D55_Y0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D55_Z0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D65_X0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D65_Y0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D65_Z0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D75_X0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D75_Y0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D75_Z0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D93_X0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D93_Y0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_D93_Z0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_DEG ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_EXEEXT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_E_X0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_E_Y0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_E_Z0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_FATSTRIP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_FREE ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO IM_FREEF ##### -->
+<para>
+
+</para>
+
+@F: 
+@S: 
+
+
+<!-- ##### MACRO IM_IMAGE_ADDR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_IMAGE_N_ELEMENTS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_IMAGE_SIZEOF_ELEMENT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_IMAGE_SIZEOF_LINE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_IMAGE_SIZEOF_PEL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_INTENT_ABSOLUTE_COLORIMETRIC ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_INTENT_PERCEPTUAL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_INTENT_RELATIVE_COLORIMETRIC ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_INTENT_SATURATION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_MAJOR_VERSION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_MAX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_META_EXIF_NAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_META_ICC_NAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_META_RESOLUTION_UNIT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_META_XML ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_MICRO_VERSION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_MIN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_MINOR_VERSION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_NEW ##### -->
+<para>
+
+</para>
+
+@IM: 
+@T: 
+
+
+<!-- ##### MACRO IM_NUMBER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_PI ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_RAD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_RECT_BOTTOM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_RECT_HCENTRE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_RECT_RIGHT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_RECT_VCENTRE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_REGION_ADDR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_REGION_ADDR_TOPLEFT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_REGION_LSKIP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_REGION_N_ELEMENTS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_REGION_SIZEOF_LINE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_RINT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_SETSTR ##### -->
+<para>
+
+</para>
+
+@S: 
+@V: 
+
+
+<!-- ##### MACRO IM_SIZEOF_HEADER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_SMALLTILE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_SWAP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_THINSTRIP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_AREA ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_BLOB ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_B_W ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_CMYK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_FOURIER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_GREY16 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_HISTOGRAM ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_LAB ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_LABQ ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_LABS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_LCH ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_MULTIBAND ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_REF_STRING ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_RGB ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_RGB16 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_SAVE_STRING ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_UCS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_XYZ ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_YXY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_TYPE_sRGB ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_UNROLL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO IM_VERSION_STRING ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO PEL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO REGION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO Rect ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO VIPS_VIP7COMPATS_H ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO VSListFold2Fn ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO VSListMap2Fn ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO VSListMap4Fn ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO VipsBandFmt ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO VipsType ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO error_exit ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_BandFmt2char ##### -->
+<para>
+
+</para>
+
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_Coding2char ##### -->
+<para>
+
+</para>
+
+@coding: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_Compression2char ##### -->
+<para>
+
+</para>
+
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_LCh2Lab ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_LCh2UCS ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_Lab2LCh ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_Lab2LabQ ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_Lab2LabS ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_Lab2UCS ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_Lab2XYZ ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_Lab2XYZ_temp ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@X0: 
+@Y0: 
+@Z0: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_Lab2disp ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@disp: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_LabQ2Lab ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_LabQ2LabS ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_LabQ2XYZ ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im_LabQ2disp ##### -->
+<para>
+
+</para>
+
+@A: 
+@B: 
+@C: 
+
+
+<!-- ##### MACRO im_LabQ2disp_build_table ##### -->
+<para>
+
+</para>
+
+@A: 
+@B: 
+
+
+<!-- ##### MACRO im_LabQ2disp_table ##### -->
+<para>
+
+</para>
+
+@A: 
+@B: 
+@C: 
+
+
+<!-- ##### FUNCTION im_LabQ2sRGB ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_LabS2Lab ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_LabS2LabQ ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_Type2char ##### -->
+<para>
+
+</para>
+
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_UCS2LCh ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_UCS2Lab ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_UCS2XYZ ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_XYZ2Lab ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_XYZ2Lab_temp ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@X0: 
+@Y0: 
+@Z0: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_XYZ2UCS ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_XYZ2Yxy ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im_XYZ2disp ##### -->
+<para>
+
+</para>
+
+@A: 
+@B: 
+@C: 
+
+
+<!-- ##### FUNCTION im_XYZ2sRGB ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_Yxy2XYZ ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im__change_suffix ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__end_eval ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__file_open_read ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__file_open_write ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__file_read ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__file_read_name ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__file_write ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__ftruncate ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__get_bytes ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__global_lock ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__gslist_gvalue_copy ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__gslist_gvalue_free ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__gslist_gvalue_get ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__gslist_gvalue_merge ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__gvalue_ref_string_new ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__handle_eval ##### -->
+<para>
+
+</para>
+
+@I: 
+@W: 
+@H: 
+
+
+<!-- ##### MACRO im__has_extension_block ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__mmap ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__munmap ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__open_image_file ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__open_image_read ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__open_temp ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__print_all ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__print_renders ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__read_extension_block ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__read_header_bytes ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__region_no_ownership ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__seek ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__sizeof_bandfmt ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__start_eval ##### -->
+<para>
+
+</para>
+
+@I: 
+
+
+<!-- ##### MACRO im__temp_name ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__test_kill ##### -->
+<para>
+
+</para>
+
+@I: 
+
+
+<!-- ##### MACRO im__write ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__write_extension_block ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__write_header_bytes ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im__writehist ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_abs ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_acostra ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_add ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_add_callback ##### -->
+<para>
+
+</para>
+
+@im: 
+@callback: 
+@fn: 
+@a: 
+@b: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_add_callback1 ##### -->
+<para>
+
+</para>
+
+@im: 
+@callback: 
+@fn: 
+@a: 
+@b: 
+@Returns: 
+
+
+<!-- ##### MACRO im_add_close_callback ##### -->
+<para>
+
+</para>
+
+@IM: 
+@FN: 
+@A: 
+@B: 
+
+
+<!-- ##### MACRO im_add_eval_callback ##### -->
+<para>
+
+</para>
+
+@IM: 
+@FN: 
+@A: 
+@B: 
+
+
+<!-- ##### MACRO im_add_evalend_callback ##### -->
+<para>
+
+</para>
+
+@IM: 
+@FN: 
+@A: 
+@B: 
+
+
+<!-- ##### MACRO im_add_evalstart_callback ##### -->
+<para>
+
+</para>
+
+@IM: 
+@FN: 
+@A: 
+@B: 
+
+
+<!-- ##### MACRO im_add_invalidate_callback ##### -->
+<para>
+
+</para>
+
+@IM: 
+@FN: 
+@A: 
+@B: 
+
+
+<!-- ##### MACRO im_add_postclose_callback ##### -->
+<para>
+
+</para>
+
+@IM: 
+@FN: 
+@A: 
+@B: 
+
+
+<!-- ##### MACRO im_add_preclose_callback ##### -->
+<para>
+
+</para>
+
+@IM: 
+@FN: 
+@A: 
+@B: 
+
+
+<!-- ##### FUNCTION im_affinei ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@interpolate: 
+@a: 
+@b: 
+@c: 
+@d: 
+@dx: 
+@dy: 
+@ox: 
+@oy: 
+@ow: 
+@oh: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_affinei_all ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@interpolate: 
+@a: 
+@b: 
+@c: 
+@d: 
+@dx: 
+@dy: 
+@Returns: 
+
+
+<!-- ##### MACRO im_allocate_input_array ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_amiMSBfirst ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_andimage ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_andimage_vec ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_andimageconst ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_argb2rgba ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_asintra ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_atantra ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_avg ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_bandjoin ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_bandmean ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im_binfile ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_bits_of_fmt ##### -->
+<para>
+
+</para>
+
+@fmt: 
+
+
+<!-- ##### FUNCTION im_black ##### -->
+<para>
+
+</para>
+
+@out: 
+@x: 
+@y: 
+@bands: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_blend ##### -->
+<para>
+
+</para>
+
+@c: 
+@a: 
+@b: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im_blob_get ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_blob_set ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_break_token ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_c2amph ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_c2imag ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_c2real ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_c2rect ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_cache ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@width: 
+@height: 
+@max: 
+@Returns: 
+
+
+<!-- ##### MACRO im_callback_fn ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_ceil ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_char2BandFmt ##### -->
+<para>
+
+</para>
+
+@str: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_char2Coding ##### -->
+<para>
+
+</para>
+
+@str: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_char2Type ##### -->
+<para>
+
+</para>
+
+@str: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_char2dhint ##### -->
+<para>
+
+</para>
+
+@str: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_char2dtype ##### -->
+<para>
+
+</para>
+
+@str: 
+@Returns: 
+
+
+<!-- ##### MACRO im_check_8or16 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_bandno ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_bands ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_bands_1or3 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_bands_1orn ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_bands_1orn_unary ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_bands_same ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_coding_known ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_coding_labq ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_coding_noneorlabq ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_coding_rad ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_coding_same ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_complex ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_dmask ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_format ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_format_same ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_hist ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_imask ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_int ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_mono ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_noncomplex ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_size_same ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_u8or16 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_u8or16orf ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_uint ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_uintorf ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_uncoded ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_check_vector ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_clip2fmt ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_close ##### -->
+<para>
+
+</para>
+
+@im: 
+@Returns: 
+
+
+<!-- ##### MACRO im_col_C2Cucs ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_col_Ch2ab ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_col_Ch2hucs ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_col_Chucs2h ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_col_Cucs2C ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_col_L2Lucs ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_col_Lab2XYZ ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_col_Lucs2L ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_col_XYZ2Lab ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_col_ab2Ch ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_col_ab2h ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_col_dE00 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT im_col_display ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO im_col_displays ##### -->
+<para>
+
+</para>
+
+@S: 
+
+
+<!-- ##### MACRO im_col_make_tables_UCS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_col_pythagoras ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_concurrency_get ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_concurrency_set ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### USER_FUNCTION im_construct_fn ##### -->
+<para>
+
+</para>
+
+@Param1: 
+@Param2: 
+@Param3: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_copy ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_copy_morph ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@bands: 
+@format: 
+@coding: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_copy_native ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@is_msb_first: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_copy_set ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@interpretation: 
+@xres: 
+@yres: 
+@xoffset: 
+@yoffset: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_copy_set_meta ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@field: 
+@value: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_copy_swap ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_costra ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im_cp_desc ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_cp_desc_array ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_cp_descv ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_cross_phase ##### -->
+<para>
+
+</para>
+
+@a: 
+@b: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_dE00_fromLab ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_dECMC_fromLab ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_dECMC_fromdisp ##### -->
+<para>
+
+</para>
+
+@Param1: 
+@Param2: 
+@Param3: 
+@Param4: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_dE_fromLab ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_dE_fromXYZ ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_dE_fromdisp ##### -->
+<para>
+
+</para>
+
+@Param1: 
+@Param2: 
+@Param3: 
+@Param4: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_demand_hint ##### -->
+<para>
+
+</para>
+
+@im: 
+@hint: 
+@...: 
+@Returns: 
+
+
+<!-- ##### MACRO im_demand_hint_array ##### -->
+<para>
+
+</para>
+
+@A: 
+@B: 
+@C: 
+
+
+<!-- ##### FUNCTION im_deviate ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_dhint2char ##### -->
+<para>
+
+</para>
+
+@style: 
+@Returns: 
+
+
+<!-- ##### MACRO im_diag ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_disp2Lab ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@disp: 
+@Returns: 
+
+
+<!-- ##### MACRO im_disp2XYZ ##### -->
+<para>
+
+</para>
+
+@A: 
+@B: 
+@C: 
+
+
+<!-- ##### FUNCTION im_divide ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_dtype2char ##### -->
+<para>
+
+</para>
+
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_embed ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@type: 
+@x: 
+@y: 
+@width: 
+@height: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_eorimage ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_eorimage_vec ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_eorimageconst ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_equal ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_equal_vec ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_equalconst ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@c: 
+@Returns: 
+
+
+<!-- ##### MACRO im_error ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_error_buffer ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_error_clear ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_error_system ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_existsf ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_exp10tra ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_expntra ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@e: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_expntra_vec ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@e: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_exptra ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_extract_area ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@left: 
+@top: 
+@width: 
+@height: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_extract_areabands ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@left: 
+@top: 
+@width: 
+@height: 
+@band: 
+@nbands: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_extract_band ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@band: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_extract_bands ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@band: 
+@nbands: 
+@Returns: 
+
+
+<!-- ##### MACRO im_file_length ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_filename_split ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_filename_suffix ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_filename_suffix_match ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_fliphor ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_flipver ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_float2rad ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_floor ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im_free ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_gbandjoin ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_generate ##### -->
+<para>
+
+</para>
+
+@im: 
+@start: 
+@generate: 
+@stop: 
+@a: 
+@b: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION im_generate_fn ##### -->
+<para>
+
+</para>
+
+@out: 
+@seq: 
+@a: 
+@b: 
+@Returns: 
+
+
+<!-- ##### MACRO im_get_argv0 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_get_option_group ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_getnextoption ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_getsuboption ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_guess_libdir ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_guess_prefix ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_hash_table_map ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_header_as_string ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_header_double ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_header_get ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_header_get_typeof ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_header_int ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_header_map ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_header_map_fn ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_header_string ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_histlin ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_history_get ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_icc_ac2rc ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@profile_filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_icc_export_depth ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@depth: 
+@output_profile_filename: 
+@intent: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_icc_import ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@input_profile_filename: 
+@intent: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_icc_import_embedded ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@intent: 
+@Returns: 
+
+
+<!-- ##### MACRO im_icc_present ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_icc_transform ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@input_profile_filename: 
+@output_profile_filename: 
+@intent: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_ifthenelse ##### -->
+<para>
+
+</para>
+
+@c: 
+@a: 
+@b: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im_image ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_image_open_input ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_image_open_output ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_image_sanity ##### -->
+<para>
+
+</para>
+
+@I: 
+
+
+<!-- ##### MACRO im_image_sanity_all ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_incheck ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_init ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### MACRO im_init_world ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_initdesc ##### -->
+<para>
+
+</para>
+
+@image: 
+@xsize: 
+@ysize: 
+@bands: 
+@bandbits: 
+@bandfmt: 
+@coding: 
+@type: 
+@xres: 
+@yres: 
+@xo: 
+@yo: 
+
+
+<!-- ##### FUNCTION im_insert ##### -->
+<para>
+
+</para>
+
+@main: 
+@sub: 
+@out: 
+@x: 
+@y: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_insert_noexpand ##### -->
+<para>
+
+</para>
+
+@main: 
+@sub: 
+@out: 
+@x: 
+@y: 
+@Returns: 
+
+
+<!-- ##### MACRO im_invalidate ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_invert ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im_iocheck ##### -->
+<para>
+
+</para>
+
+@I: 
+@O: 
+
+
+<!-- ##### MACRO im_isfile ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_ispostfix ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_ispoweroftwo ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_isprefix ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_lab_morph ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@mask: 
+@L_offset: 
+@L_scale: 
+@a_scale: 
+@b_scale: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_less ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_less_vec ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_lessconst ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_lesseq ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_lesseq_vec ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_lesseqconst ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_linreg ##### -->
+<para>
+
+</para>
+
+@ins: 
+@out: 
+@xs: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_lintra ##### -->
+<para>
+
+</para>
+
+@a: 
+@in: 
+@b: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_lintra_vec ##### -->
+<para>
+
+</para>
+
+@n: 
+@a: 
+@in: 
+@b: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_local ##### -->
+<para>
+
+</para>
+
+@im: 
+@cons: 
+@dest: 
+@a: 
+@b: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_local_array ##### -->
+<para>
+
+</para>
+
+@im: 
+@out: 
+@n: 
+@cons: 
+@dest: 
+@a: 
+@b: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_log10tra ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_logtra ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_lrjoin ##### -->
+<para>
+
+</para>
+
+@left: 
+@right: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im_malloc ##### -->
+<para>
+
+</para>
+
+@IM: 
+@SZ: 
+
+
+<!-- ##### MACRO im_map_equal ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_mapfile ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_mapfilerw ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_mask2vips ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_max ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_maxpos ##### -->
+<para>
+
+</para>
+
+@in: 
+@xpos: 
+@ypos: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_maxpos_avg ##### -->
+<para>
+
+</para>
+
+@im: 
+@xpos: 
+@ypos: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_maxpos_vec ##### -->
+<para>
+
+</para>
+
+@im: 
+@xpos: 
+@ypos: 
+@maxima: 
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_measure_area ##### -->
+<para>
+
+</para>
+
+@im: 
+@left: 
+@top: 
+@width: 
+@height: 
+@h: 
+@v: 
+@sel: 
+@nsel: 
+@name: 
+@Returns: 
+
+
+<!-- ##### MACRO im_meta_get ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_meta_get_area ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_meta_get_blob ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_meta_get_double ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_meta_get_int ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_meta_get_string ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_meta_get_typeof ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_meta_remove ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_meta_set ##### -->
+<para>
+
+</para>
+
+@A: 
+@B: 
+@C: 
+
+
+<!-- ##### MACRO im_meta_set_area ##### -->
+<para>
+
+</para>
+
+@A: 
+@B: 
+@C: 
+@D: 
+
+
+<!-- ##### MACRO im_meta_set_blob ##### -->
+<para>
+
+</para>
+
+@A: 
+@B: 
+@C: 
+@D: 
+@E: 
+
+
+<!-- ##### MACRO im_meta_set_double ##### -->
+<para>
+
+</para>
+
+@A: 
+@B: 
+@C: 
+
+
+<!-- ##### MACRO im_meta_set_int ##### -->
+<para>
+
+</para>
+
+@A: 
+@B: 
+@C: 
+
+
+<!-- ##### MACRO im_meta_set_string ##### -->
+<para>
+
+</para>
+
+@A: 
+@B: 
+@C: 
+
+
+<!-- ##### FUNCTION im_min ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_minpos ##### -->
+<para>
+
+</para>
+
+@in: 
+@xpos: 
+@ypos: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_minpos_vec ##### -->
+<para>
+
+</para>
+
+@im: 
+@xpos: 
+@ypos: 
+@minima: 
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_more ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_more_vec ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_moreconst ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_moreeq ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_moreeq_vec ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_moreeqconst ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_multiply ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_notequal ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_notequal_vec ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_notequalconst ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_open ##### -->
+<para>
+
+</para>
+
+@filename: 
+@mode: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_open_local ##### -->
+<para>
+
+</para>
+
+@parent: 
+@filename: 
+@mode: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_open_local_array ##### -->
+<para>
+
+</para>
+
+@parent: 
+@images: 
+@n: 
+@filename: 
+@mode: 
+@Returns: 
+
+
+<!-- ##### MACRO im_openout ##### -->
+<para>
+
+</para>
+
+@F: 
+
+
+<!-- ##### FUNCTION im_orimage ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_orimage_vec ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_orimageconst ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@c: 
+@Returns: 
+
+
+<!-- ##### MACRO im_outcheck ##### -->
+<para>
+
+</para>
+
+@I: 
+
+
+<!-- ##### MACRO im_pincheck ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_piocheck ##### -->
+<para>
+
+</para>
+
+@I: 
+@O: 
+
+
+<!-- ##### FUNCTION im_point ##### -->
+<para>
+
+</para>
+
+@im: 
+@interpolate: 
+@x: 
+@y: 
+@band: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_point_bilinear ##### -->
+<para>
+
+</para>
+
+@im: 
+@x: 
+@y: 
+@band: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im_popenf ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_poutcheck ##### -->
+<para>
+
+</para>
+
+@I: 
+
+
+<!-- ##### FUNCTION im_powtra ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@e: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_powtra_vec ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@e: 
+@Returns: 
+
+
+<!-- ##### MACRO im_prepare ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_prepare_many ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_prepare_to ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_printdesc ##### -->
+<para>
+
+</para>
+
+@I: 
+
+
+<!-- ##### FUNCTION im_quadratic ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@coeff: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_rad2float ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_recomb ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@recomb: 
+@Returns: 
+
+
+<!-- ##### MACRO im_rect_dup ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_rect_equalsrect ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_rect_includespoint ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_rect_includesrect ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_rect_intersectrect ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_rect_isempty ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_rect_marginadjust ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_rect_normalise ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_rect_unionrect ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_ref_string_get ##### -->
+<para>
+
+</para>
+
+@V: 
+
+
+<!-- ##### FUNCTION im_ref_string_get_length ##### -->
+<para>
+
+</para>
+
+@value: 
+@Returns: 
+
+
+<!-- ##### MACRO im_ref_string_set ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_region_black ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_region_buffer ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_region_create ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_region_free ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_region_paint ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_region_region ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_remainder ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_remainder_vec ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_remainderconst ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@c: 
+@Returns: 
+
+
+<!-- ##### MACRO im_remapfilerw ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_replicate ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@across: 
+@down: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_ri2c ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_rightshift_size ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@xshift: 
+@yshift: 
+@band_fmt: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_rint ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_rot180 ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_rot270 ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_rot90 ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im_rwcheck ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_sRGB2XYZ ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im_save_string_get ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_save_string_set ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_save_string_setf ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_semaphore_destroy ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_semaphore_down ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_semaphore_downn ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_semaphore_init ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_semaphore_t ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_semaphore_up ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_semaphore_upn ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_setbuf ##### -->
+<para>
+
+</para>
+
+@F: 
+
+
+<!-- ##### MACRO im_setupout ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_shiftleft ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_shiftleft_vec ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_shiftright ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_shiftright_vec ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@n: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_shrink ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@xshrink: 
+@yshrink: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_sign ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_sintra ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im_skip_dir ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_slist_equal ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_slist_filter ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_slist_fold2 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_slist_free_all ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_slist_map2 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_slist_map2_rev ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_slist_map4 ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_snprintf ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_start_fn ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_start_many ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_start_one ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_stats ##### -->
+<para>
+
+</para>
+
+@in: 
+@Returns: 
+
+
+<!-- ##### MACRO im_stop_fn ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_stop_many ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_stop_one ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_strdup ##### -->
+<para>
+
+</para>
+
+@IM: 
+@STR: 
+
+
+<!-- ##### MACRO im_strncpy ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_strrstr ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_subtract ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_tantra ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_tbjoin ##### -->
+<para>
+
+</para>
+
+@top: 
+@bottom: 
+@out: 
+@Returns: 
+
+
+<!-- ##### MACRO im_updatehist ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_vdiag ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_verror ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_verror_system ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_version ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_version_string ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_vips2mask ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### MACRO im_vsnprintf ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_vwarn ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO im_warn ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION im_wrapmany ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@fn: 
+@a: 
+@b: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION im_wrapmany_fn ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@width: 
+@a: 
+@b: 
+
+
+<!-- ##### FUNCTION im_wrapone ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@fn: 
+@a: 
+@b: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION im_wrapone_fn ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@width: 
+@a: 
+@b: 
+
+
+<!-- ##### FUNCTION im_wraptwo ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@fn: 
+@a: 
+@b: 
+@Returns: 
+
+
+<!-- ##### USER_FUNCTION im_wraptwo_fn ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@out: 
+@width: 
+@a: 
+@b: 
+
+
+<!-- ##### MACRO im_writeline ##### -->
+<para>
+
+</para>
+
+@Y: 
+@IM: 
+@P: 
+
+
+<!-- ##### MACRO vips_bandfmt_iscomplex ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO vips_bandfmt_isfloat ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO vips_bandfmt_isint ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO vips_bandfmt_isuint ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION vips_check_bands_3ormore ##### -->
+<para>
+
+</para>
+
+@domain: 
+@im: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips_check_coding_labq ##### -->
+<para>
+
+</para>
+
+@domain: 
+@im: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips_check_coding_rad ##### -->
+<para>
+
+</para>
+
+@domain: 
+@im: 
+@Returns: 
+
+
+<!-- ##### MACRO vips_class_map_concrete_all ##### -->
+<para>
+
+</para>
+
+
+

@@ -1,0 +1,95 @@
+<!-- ##### SECTION Title ##### -->
+tiff
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION vips__istiff ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__istifftiled ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__tiff_init ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION vips__tiff_read ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@page: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__tiff_read_header ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@page: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips__tiff_write ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@compression: 
+@Q: 
+@predictor: 
+@profile: 
+@tile: 
+@tile_width: 
+@tile_height: 
+@pyramid: 
+@squash: 
+@resunit: 
+@xres: 
+@yres: 
+@bigtiff: 
+@Returns: 
+
+

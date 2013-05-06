@@ -1,0 +1,449 @@
+<!-- ##### SECTION Title ##### -->
+mask
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT DOUBLEMASK ##### -->
+<para>
+
+</para>
+
+@xsize: 
+@ysize: 
+@scale: 
+@offset: 
+@coeff: 
+@filename: 
+
+<!-- ##### STRUCT INTMASK ##### -->
+<para>
+
+</para>
+
+@xsize: 
+@ysize: 
+@scale: 
+@offset: 
+@coeff: 
+@filename: 
+
+<!-- ##### MACRO VIPS_MASK ##### -->
+<para>
+
+</para>
+
+@M: 
+@X: 
+@Y: 
+
+
+<!-- ##### FUNCTION im_create_dmask ##### -->
+<para>
+
+</para>
+
+@filename: 
+@xsize: 
+@ysize: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_create_dmaskv ##### -->
+<para>
+
+</para>
+
+@filename: 
+@xsize: 
+@ysize: 
+@...: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_create_imask ##### -->
+<para>
+
+</para>
+
+@filename: 
+@xsize: 
+@ysize: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_create_imaskv ##### -->
+<para>
+
+</para>
+
+@filename: 
+@xsize: 
+@ysize: 
+@...: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_dmask2imask ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_dup_dmask ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_dup_imask ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_free_dmask ##### -->
+<para>
+
+</para>
+
+@in: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_free_imask ##### -->
+<para>
+
+</para>
+
+@in: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_gauss_dmask ##### -->
+<para>
+
+</para>
+
+@filename: 
+@sigma: 
+@min_ampl: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_gauss_dmask_sep ##### -->
+<para>
+
+</para>
+
+@filename: 
+@sigma: 
+@min_ampl: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_gauss_imask ##### -->
+<para>
+
+</para>
+
+@filename: 
+@sigma: 
+@min_ampl: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_gauss_imask_sep ##### -->
+<para>
+
+</para>
+
+@filename: 
+@sigma: 
+@min_ampl: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_imask2dmask ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_local_dmask ##### -->
+<para>
+
+</para>
+
+@out: 
+@mask: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_local_imask ##### -->
+<para>
+
+</para>
+
+@out: 
+@mask: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_log_dmask ##### -->
+<para>
+
+</para>
+
+@filename: 
+@sigma: 
+@min_ampl: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_log_imask ##### -->
+<para>
+
+</para>
+
+@filename: 
+@sigma: 
+@min_ampl: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_lu_decomp ##### -->
+<para>
+
+</para>
+
+@mat: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_lu_solve ##### -->
+<para>
+
+</para>
+
+@lu: 
+@vec: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_matcat ##### -->
+<para>
+
+</para>
+
+@top: 
+@bottom: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_matinv ##### -->
+<para>
+
+</para>
+
+@mat: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_matinv_inplace ##### -->
+<para>
+
+</para>
+
+@mat: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_matmul ##### -->
+<para>
+
+</para>
+
+@in1: 
+@in2: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_mattrn ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_norm_dmask ##### -->
+<para>
+
+</para>
+
+@mask: 
+
+
+<!-- ##### FUNCTION im_print_dmask ##### -->
+<para>
+
+</para>
+
+@in: 
+
+
+<!-- ##### FUNCTION im_print_imask ##### -->
+<para>
+
+</para>
+
+@in: 
+
+
+<!-- ##### FUNCTION im_read_dmask ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_read_imask ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_rotate_dmask45 ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_rotate_dmask90 ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_rotate_imask45 ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_rotate_imask90 ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_scale_dmask ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_write_dmask ##### -->
+<para>
+
+</para>
+
+@in: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_write_dmask_name ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_write_imask ##### -->
+<para>
+
+</para>
+
+@in: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_write_imask_name ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+

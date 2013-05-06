@@ -1,0 +1,378 @@
+<!-- ##### SECTION Title ##### -->
+VipsFormat
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT VipsFormat ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT VipsFormatClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+@is_a: 
+@header: 
+@load: 
+@save: 
+@get_flags: 
+@priority: 
+@suffs: 
+
+<!-- ##### ENUM VipsFormatFlags ##### -->
+<para>
+
+</para>
+
+@VIPS_FORMAT_NONE: 
+@VIPS_FORMAT_PARTIAL: 
+@VIPS_FORMAT_BIGENDIAN: 
+
+<!-- ##### FUNCTION im_analyze2vips ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_bufjpeg2vips ##### -->
+<para>
+
+</para>
+
+@buf: 
+@len: 
+@out: 
+@header_only: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_csv2vips ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_exr2vips ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_fits2vips ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_jpeg2vips ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_magick2vips ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_mat2vips ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_png2vips ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_ppm2vips ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_rad2vips ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_raw2vips ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@width: 
+@height: 
+@bpp: 
+@offset: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_tiff2vips ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_tile_cache ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@tile_width: 
+@tile_height: 
+@max_tiles: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_vips2bufjpeg ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@qfac: 
+@obuf: 
+@olen: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_vips2bufpng ##### -->
+<para>
+
+</para>
+
+@in: 
+@out: 
+@compression: 
+@interlace: 
+@obuf: 
+@olen: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_vips2csv ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_vips2fits ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_vips2jpeg ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_vips2mimejpeg ##### -->
+<para>
+
+</para>
+
+@in: 
+@qfac: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_vips2png ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_vips2ppm ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_vips2rad ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_vips2raw ##### -->
+<para>
+
+</para>
+
+@in: 
+@fd: 
+@Returns: 
+
+
+<!-- ##### FUNCTION im_vips2tiff ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips_format_for_file ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips_format_for_name ##### -->
+<para>
+
+</para>
+
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips_format_get_flags ##### -->
+<para>
+
+</para>
+
+@format: 
+@filename: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips_format_map ##### -->
+<para>
+
+</para>
+
+@fn: 
+@a: 
+@b: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips_format_read ##### -->
+<para>
+
+</para>
+
+@filename: 
+@out: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips_format_write ##### -->
+<para>
+
+</para>
+
+@in: 
+@filename: 
+@Returns: 
+
+

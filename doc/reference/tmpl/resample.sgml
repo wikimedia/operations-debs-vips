@@ -1,0 +1,47 @@
+<!-- ##### SECTION Title ##### -->
+VipsResample
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT VipsResample ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG VipsResample:in ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG VipsResample:out ##### -->
+<para>
+
+</para>
+
+<!-- ##### STRUCT VipsResampleClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+

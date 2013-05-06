@@ -1,0 +1,76 @@
+<!-- ##### SECTION Title ##### -->
+sink
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT SinkBase ##### -->
+<para>
+
+</para>
+
+@im: 
+@x: 
+@y: 
+@tile_width: 
+@tile_height: 
+@nlines: 
+@processed: 
+
+<!-- ##### FUNCTION vips_sink_base_allocate ##### -->
+<para>
+
+</para>
+
+@state: 
+@a: 
+@stop: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips_sink_base_init ##### -->
+<para>
+
+</para>
+
+@sink_base: 
+@image: 
+
+
+<!-- ##### FUNCTION vips_sink_base_progress ##### -->
+<para>
+
+</para>
+
+@a: 
+@Returns: 
+
+
+<!-- ##### FUNCTION vips_sink_thread_state_new ##### -->
+<para>
+
+</para>
+
+@im: 
+@a: 
+@Returns: 
+
+
