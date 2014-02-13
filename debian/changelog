@@ -1,3 +1,9 @@
+vips (7.32.3-1wmf3) precise; urgency=low
+
+  *  [debian/gbp.conf] basic configuration
+
+ -- Antoine Musso <hashar@free.fr>  Thu, 13 Feb 2014 10:48:51 +0000
+
 vips (7.32.3-1wmf2) precise; urgency=low
 
   *  Fix dependency of the -dev package to not rely on
